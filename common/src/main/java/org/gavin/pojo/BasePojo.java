@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data
 @Accessors(chain = true)
-class BasePojo implements Serializable {
+public class BasePojo implements Serializable {
     private Date created;
     private Date updated;
 }
