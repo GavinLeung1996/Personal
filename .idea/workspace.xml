@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/BasePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/BasePojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/BasePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/BasePojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemDescService.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemDescService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemDescServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemDescServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/manage/target/" />
@@ -67,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="126">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
@@ -93,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
@@ -201,12 +189,12 @@
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/vo/EasyUI_Image.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/picService.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/picServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicService.java" />
         <option value="$PROJECT_DIR$/manage/src/main/resources/properties/image.properties" />
         <option value="E:/nginx-1.17/nginx-1.17.1/conf/nginx.conf" />
         <option value="E:/nginx-1.17.2/nginx-1.17.2/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicServiceImpl.java" />
+        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java" />
       </list>
     </option>
   </component>
@@ -427,7 +415,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563935666566</updated>
-      <workItem from="1563935671066" duration="27761000" />
+      <workItem from="1563935671066" duration="28022000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -471,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563960221338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5th">
+      <created>1563970575193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563970575193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27761000" />
+    <option name="totallyTimeSpent" value="28022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -488,7 +483,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58132046" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58132046" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.41867954" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" weight="0.32937366" />
       <window_info anchor="bottom" id="Spring" />
@@ -501,7 +496,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +521,8 @@
     <MESSAGE value="First." />
     <MESSAGE value="3th" />
     <MESSAGE value="4th" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th" />
+    <MESSAGE value="5th" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -879,18 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/nginx-1.17/nginx-1.17.1/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4350">
@@ -927,6 +911,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#587#610#1" expanded="true" />
             <element signature="e#657#678#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
