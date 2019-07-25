@@ -1,9 +1,10 @@
 package org.gavin.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
-
+@Slf4j
 public class ObjectMapperUtil {
     private static ObjectMapper mapper = new ObjectMapper();
 
@@ -15,6 +16,7 @@ public class ObjectMapperUtil {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
+        log.info("ObjectMapperUtil.toString success");
         return result;
     }
 
@@ -26,6 +28,7 @@ public class ObjectMapperUtil {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
+        log.info("ObjectMapperUtil.toObject success");
         return object;
     }
 }

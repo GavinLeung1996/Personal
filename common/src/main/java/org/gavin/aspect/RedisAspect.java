@@ -1,5 +1,6 @@
 package org.gavin.aspect;
 
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -14,6 +15,7 @@ import redis.clients.jedis.JedisCluster;
 
 @Aspect
 @Component
+@Slf4j
 public class RedisAspect {
     @Autowired(required = false)
     private JedisCluster jedisCluster;
@@ -27,6 +29,7 @@ public class RedisAspect {
             if (!StringUtils.isEmpty(result)) {
                 Class targetClass = getClass(joinPoint);
                 resultData = ObjectMapperUtil.toObject(result, targetClass);
+                log.info("查询缓存");
             }
             resultData = joinPoint.proceed();
             result = ObjectMapperUtil.toString(resultData);
@@ -35,6 +38,7 @@ public class RedisAspect {
             }else{
                 jedisCluster.setex(key,cache_query.secondes(),result);
             }
+            log.info("查询数据库");
             return resultData;
         } catch (Throwable throwable) {
             throwable.printStackTrace();
