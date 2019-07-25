@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="" />
+    <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/manage/target/" />
@@ -44,7 +49,7 @@
         <item name="localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="jtdb: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tb_item_cat: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="tb_item_param: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -56,24 +61,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java">
+        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+            <state relative-caret-position="431">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,51 +73,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="293">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#587#610#1" expanded="true" />
-                <element signature="e#657#678#1" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/nginx-1.17.2/nginx-1.17.2/conf/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="129" column="45" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/nginx-1.15.10/nginx-1.15.10/conf/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/resources/properties/image.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/vo/EasyUI_Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,7 +139,6 @@
         <option value="$PROJECT_DIR$/manage/src/main/resources/mybatis/mappers/ItemCatMapper.xml" />
         <option value="$PROJECT_DIR$/manage/src/main/resources/mybatis/mappers/ItemDescMapper.xml" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/mapper/ItemDescMapper.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/ItemCat.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescService.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/ItemDesc.java" />
@@ -184,8 +146,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/BasePojo.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/gavin/aspect/SysResutAspect.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/vo/EasyUI_Image.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/picService.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/picServiceImpl.java" />
@@ -195,6 +155,9 @@
         <option value="E:/nginx-1.17.2/nginx-1.17.2/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/PicServiceImpl.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java" />
+        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java" />
       </list>
     </option>
   </component>
@@ -275,6 +238,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gavin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -415,7 +388,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563935666566</updated>
-      <workItem from="1563935671066" duration="28022000" />
+      <workItem from="1563935671066" duration="29270000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -466,15 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563970575193</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5th">
+      <created>1563970880207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563970880207</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28022000" />
+    <option name="totallyTimeSpent" value="29270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -483,7 +462,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58132046" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58132046" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.41867954" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" weight="0.32937366" />
       <window_info anchor="bottom" id="Spring" />
@@ -496,7 +475,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -824,33 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -917,12 +869,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="18">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

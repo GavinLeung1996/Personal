@@ -37,4 +37,5 @@ public class ItemServiceImpl implements ItemService {
         itemDesc.setItem_id(item.getId()).setCreated(new Date()).setUpdated(itemDesc.getCreated());
         itemDescMapper.insert(itemDesc);
     }
+
 }

@@ -9,4 +9,5 @@ public interface ItemService {
     EasyUi_Table queryItem(Integer page, Integer rows);
 
     void save(Item item, ItemDesc itemDesc);
+
 }
