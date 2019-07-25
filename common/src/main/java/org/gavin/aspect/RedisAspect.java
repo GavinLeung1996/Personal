@@ -30,6 +30,7 @@ public class RedisAspect {
                 Class targetClass = getClass(joinPoint);
                 resultData = ObjectMapperUtil.toObject(result, targetClass);
                 log.info("查询缓存");
+                return resultData;
             }
             resultData = joinPoint.proceed();
             result = ObjectMapperUtil.toString(resultData);

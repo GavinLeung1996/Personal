@@ -9,11 +9,14 @@ import redis.clients.jedis.JedisCluster;
 @org.springframework.boot.test.context.SpringBootTest
 @RunWith(SpringRunner.class)
 public class SpringBootTest {
-    @Autowired
+    @Autowired(required = false)
     private JedisCluster jedisCluster;
+
 
     @Test
     public void testJedis(){
+
         System.out.println(jedisCluster);
+        System.out.println(jedisCluster.get("list::7"));
     }
 }
