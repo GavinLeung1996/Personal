@@ -2,231 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest$T1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/gavin/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/test/java/org/gavin/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/test/java/org/gavin/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/sso.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/JSONP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/commons/footer-links.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/commons/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/commons/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/commons/shortcut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/error/exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/error/my-exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/item.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/my-info-img.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/my-info-more.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/my-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/my-order-comment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/my-orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/order-cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/jt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/myjd.commentImg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/myjd.common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/myjd.info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/myjd.order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/passport.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/pop_compare.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/psearch.onebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/psearch20131008.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/pshow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/purchase.2012.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/purchase.base.2012.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/purchase.checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/purchase.sop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/css/regist.personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20111221C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20120112B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20120209D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130330A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130330A_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130330B_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130330C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130415i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130606B (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130606B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/20130725.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/2013100701.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/2013100702.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/360_flash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/360_video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/537b084eN94336622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/541f893aN662da9bc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/541fdd63Nab1b3c63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/54238aaaN17189794.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/543b4d75N686689d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/5440b1e4N8ff6d0fd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/5440b1e7N1ade375b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/5440ce68Na00d019e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/544a11d3Na5a3d566.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/547e6a57N75c2f016.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/549d03d0N59b1f026.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/backpanel20140708.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/bg20110922.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/bg_hotsale.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/bg_prompt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/bg_thickbox.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/btn-again.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/btn-bg-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/btn-check-20140627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/btn-submit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/cart_corner_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/checkout-title.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/cicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/commstar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/control-icon-20140521.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/cue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/defaultImgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/error-3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/error-jd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/floor-sort20131202.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/flow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/footprint-arr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/hover-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/icon48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/iconadd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/im20131028.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/index-jd-wx-qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/index.showcase.tg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/jt-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/layer-credit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/loading-jd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/login-all-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/logo-201305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/m-buy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/more-slide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/my_cart_title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/myjd-bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/myjd-common-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/myjd-new-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/newicon20140417.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/one4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/one5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/one6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/order-icon-20140811.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/p-btns-20140611.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/perfect_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/phone-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/promise20141021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/pwdstrength.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/qr-code-sao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/qr-code-sao02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/rBEhV1I2yiUIAAAAAADKL7RWKf8AADQDQOQekkAAMpH341.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/rBEhV1NXYLYIAAAAAADGO8-wV-UAAMfdgNi-BAAAMZT367.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/rank-sh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/rank2014.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/regist-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/regist-word.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/step1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/step2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/sucess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/thickbox_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/tip-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/tip-cue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/toggler-arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/vip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/virtuals-20140606.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/virtuals-cat-ico20140826.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/wait-btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/images/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/CommentStar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/base-2011.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/base-v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/iplocation_server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jTips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery-1.2.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery-extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery.checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery.hashchange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery.price_format.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/lib-v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/login/checkClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/login/g.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/login/jdEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/login/jdThickBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/login/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/order.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/register/jd.lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/register/jdThickBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/register/jdValidate.emReg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/register/jdValidate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/register/jdValidate.regSuccess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/search_main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/lib-v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/register/jd.lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/register/jdThickBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/register/jdValidate.emReg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/register/jdValidate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/js/static/register/jdValidate.regSuccess.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/testJS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/aspect/RedisAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/aspect/RedisAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/util/ObjectMapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/util/ObjectMapperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/org/gavin/SpringBootTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/aspect/RedisAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/aspect/RedisAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/util/ObjectMapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/util/ObjectMapperUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/org/gavin/SpringBootTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/test/org/gavin/SpringBootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/test/org/gavin/SpringBootTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -284,9 +60,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/SpringBootRunWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/config/MvcConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/js/jt.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -316,11 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/mapper/ItemController.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/resources/mapper/ItemMapper.xml" />
-        <option value="$PROJECT_DIR$/manage/src/main/resources/mybatis/mappers/ItemMapper.xml" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/ManageSpringBoot.java" />
-        <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/ManageSpringBootRun.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PageController.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/org/gavin/vo/SysResut.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/org/gavin/vo/EasyUi_Table.java" />
@@ -367,6 +186,11 @@
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/sso/pom.xml" />
         <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/gavin/SpringBootRunWeb.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/gavin/config/MvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" />
       </list>
     </option>
   </component>
@@ -411,18 +235,53 @@
             <path>
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -430,12 +289,9 @@
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -443,6 +299,18 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,7 +331,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java/org/gavin/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -483,11 +351,11 @@
       <recent name="org.gavin.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pocjet\jt-practice\web\src\main\java\org\gavin\config" />
+      <recent name="E:\Pocjet\jt-practice\web\src\main\resources" />
       <recent name="E:\Pocjet\jt-practice\web\src\main" />
       <recent name="E:\Pocjet\jt-practice\manage\src\main\resources\properties" />
       <recent name="E:\Pocjet\jt-practice\manage\src\main\resources\mybatis\mappers" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.gavin" />
@@ -507,6 +375,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -518,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBootTest.testJedis">
+  <component name="RunManager" selected="Spring Boot.SpringBootRunWeb">
     <configuration name="SpringBootTest.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manage" />
       <option name="PACKAGE_NAME" value="org.gavin" />
@@ -544,6 +417,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootRunWeb" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gavin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.SpringBootRunWeb" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="nginx-1.17" type="nginx.configuration.type" factoryName="nginx server">
       <option name="serverDescriptorId" value="nginx.descriptor.1563970155815" />
       <option name="showHttpLog" value="false" />
@@ -556,9 +444,11 @@
       <item itemvalue="JUnit.SpringBootTest.testJedis" />
       <item itemvalue="nginx server.nginx-1.17" />
       <item itemvalue="Spring Boot.ManageSpringBootRun" />
+      <item itemvalue="Spring Boot.SpringBootRunWeb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootRunWeb" />
         <item itemvalue="JUnit.SpringBootTest.testJedis" />
         <item itemvalue="Spring Boot.ManageSpringBootRun" />
       </list>
@@ -577,7 +467,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563935666566</updated>
-      <workItem from="1563935671066" duration="46133000" />
+      <workItem from="1563935671066" duration="50986000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -656,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564027039009</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="8th">
+      <created>1564040660325</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564040660325</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46133000" />
+    <option name="totallyTimeSpent" value="50986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -706,6 +603,7 @@
       <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58132046" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.41867954" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49946696" weight="0.32937366" />
@@ -717,12 +615,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="14" weight="0.39956802" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" weight="0.18070363" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" weight="0.32995737" />
@@ -745,94 +643,10 @@
     <MESSAGE value="5th" />
     <MESSAGE value="6th" />
     <MESSAGE value="7th" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th" />
+    <MESSAGE value="8th" />
+    <option name="LAST_COMMIT_MESSAGE" value="8th" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/vo/EasyUI_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/webapp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="139" column="37" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/resources/mybatis/mappers/ItemCatMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/resources/mybatis/mappers/ItemDescMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/ItemCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/BasePojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/gavin/aspect/SysResutAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemDescServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1027,38 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-839">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/org/gavin/aspect/RedisAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1182,6 +964,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/js/jt.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/properties/image.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/SpringBootRunWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/config/MvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
