@@ -1,7 +1,12 @@
 package org.gavin.controller;
 
+import org.gavin.pojo.Item;
+import org.gavin.pojo.ItemDesc;
+import org.gavin.service.ItemService;
 import org.gavin.vo.SysResut;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,9 +14,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/items/")
 public class ItemController {
 
-    @RequestMapping("{itemId}")
-    public SysResut findItemById(@PathVariable Long itemId){
+    @Autowired
+    private ItemService itemService;
 
-        return SysResut.success();
+    @RequestMapping("{itemId}")
+    public String findItemById(@PathVariable Long itemId, Model model){
+        Item item = itemService.findItemById(itemId);
+        ItemDesc itemDesc = itemService.findItemDescById(itemId);
+        model.addAttribute("item",item).addAttribute("itemDesc",itemDesc);
+        return "item";
     }
 }

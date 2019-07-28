@@ -3,6 +3,7 @@ package org.gavin.pojo;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.ToString;
 import lombok.experimental.Accessors;
@@ -11,6 +12,7 @@ import lombok.experimental.Accessors;
 @ToString
 @Accessors(chain = true)
 @TableName("tb_item")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Item extends BasePojo{
     @TableId(type = IdType.AUTO)
     private Long id;
@@ -23,4 +25,7 @@ public class Item extends BasePojo{
     private Long cid;
     private Integer status;
 
+    public String[] getImages(){
+        return image.split(",");
+    }
 }

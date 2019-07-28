@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("org.gavin.mapper")
-public class ManageSpringBootRun {
+public class SpringBootRunManage {
     public static void main(String[] args) {
-        SpringApplication.run(ManageSpringBootRun.class,args);
+        SpringApplication.run(SpringBootRunManage.class,args);
     }
 }

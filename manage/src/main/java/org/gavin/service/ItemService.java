@@ -19,4 +19,6 @@ public interface ItemService {
     void dele(List<Long> ids);
 
     void changeStatus(Item item, List<Long> ids);
+
+    Item queryItemById(Long itemId);
 }

@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/properties/httpClient.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test/org/gavin/TestHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/web/WebItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/util/HttpClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso/sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jt-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/test-classes/META-INF/common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/ManageSpringBootRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/SpringBootRunManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/ManageSpringBootRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/META-INF/manage.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest$T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -126,8 +138,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.gavin.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pocjet\jt-practice\common\src\test\org" />
+      <recent name="E:\Pocjet\jt-practice\common\src\test" />
+      <recent name="E:\Pocjet\jt-practice\manage\src" />
+      <recent name="E:\Pocjet\jt-practice\manage\src\main" />
+      <recent name="E:\Pocjet\jt-practice\manage\src\main\resources\mybatis" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.gavin" />
@@ -145,12 +161,8 @@
       <recent name="org.gavin.mapper" />
       <recent name="org.gavin.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Pocjet\jt-practice\common\src\test\org" />
-      <recent name="E:\Pocjet\jt-practice\common\src\test" />
-      <recent name="E:\Pocjet\jt-practice\manage\src" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main\resources\mybatis" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.gavin.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootRunWeb">
+  <component name="RunManager" selected="nginx server.nginx-1.17">
     <configuration name="SpringBootTest.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manage" />
       <option name="PACKAGE_NAME" value="org.gavin" />
@@ -181,7 +193,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageSpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringBootRunManage" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="manage" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +201,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.ManageSpringBootRun" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.SpringBootRunManage" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -222,16 +234,31 @@
     <list>
       <item itemvalue="JUnit.SpringBootTest.testJedis" />
       <item itemvalue="nginx server.nginx-1.17" />
-      <item itemvalue="Spring Boot.ManageSpringBootRun" />
+      <item itemvalue="Spring Boot.SpringBootRunManage" />
       <item itemvalue="Spring Boot.SpringBootRunWeb" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SpringBootRunWeb" />
+        <item itemvalue="Spring Boot.SpringBootRunManage" />
         <item itemvalue="JUnit.SpringBootTest.testJedis" />
-        <item itemvalue="Spring Boot.ManageSpringBootRun" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a69cf9b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR" />
@@ -252,7 +279,7 @@
       <workItem from="1564148613882" duration="6364000" />
       <workItem from="1564281890635" duration="125000" />
       <workItem from="1564282573921" duration="151000" />
-      <workItem from="1564283047949" duration="614000" />
+      <workItem from="1564283047949" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -352,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564115854102</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="10th">
+      <created>1564284010355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564284010355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,6 +447,7 @@
     <MESSAGE value="7th" />
     <MESSAGE value="8th" />
     <MESSAGE value="9th" />
-    <option name="LAST_COMMIT_MESSAGE" value="9th" />
+    <MESSAGE value="10th" />
+    <option name="LAST_COMMIT_MESSAGE" value="10th" />
   </component>
 </project>

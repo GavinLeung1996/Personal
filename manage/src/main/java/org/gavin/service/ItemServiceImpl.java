@@ -70,4 +70,9 @@ public class ItemServiceImpl implements ItemService {
         itemMapper.update(item,updateWrapper);
     }
 
+    @Override
+    public Item queryItemById(Long itemId) {
+        return itemMapper.selectById(itemId);
+    }
+
 }
