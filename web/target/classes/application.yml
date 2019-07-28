@@ -11,7 +11,7 @@ spring:
 
 dubbo:
   scan:
-    basePackages: com.jt
+    basePackages: org.gavin
   application:
     name: consumer-user
   registry:

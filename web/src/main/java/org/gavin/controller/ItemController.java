@@ -1,5 +1,6 @@
 package org.gavin.controller;
 
+import org.gavin.anno.Cache_Query;
 import org.gavin.pojo.Item;
 import org.gavin.pojo.ItemDesc;
 import org.gavin.service.ItemService;
@@ -18,6 +19,7 @@ public class ItemController {
     private ItemService itemService;
 
     @RequestMapping("{itemId}")
+    @Cache_Query
     public String findItemById(@PathVariable Long itemId, Model model){
         Item item = itemService.findItemById(itemId);
         ItemDesc itemDesc = itemService.findItemDescById(itemId);

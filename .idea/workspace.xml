@@ -2,26 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/controller/web/WebItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/util/HttpClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/service/DubboUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/mybatis.mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/mybatis.mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/SpringBootRunSSO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/service/DubboUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/properties/redis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/pojo/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/META-INF/common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/ManageSpringBootRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/SpringBootRunManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/org/gavin/service/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/ManageSpringBootRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/org/gavin/service/ItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/META-INF/manage.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest$T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/test-classes/org/gavin/SpringBootTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/HttpClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/propertices/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/properties/redis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/UserController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +76,7 @@
         <item name="localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="jtdb: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tb_item: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="tb_user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -81,15 +96,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Path</find>
-      <find>ContextPath</find>
-      <find>/item/query</find>
-      <find>/item/cat/list</find>
-      <find>item/param/list</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,12 +162,13 @@
       <recent name="E:\Pocjet\jt-practice\web\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.gavin.vo" />
       <recent name="org.gavin.service" />
+      <recent name="org.gavin.vo" />
       <recent name="org.gavin.mapper" />
       <recent name="org.gavin.controller" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.gavin.mapper" />
       <recent name="org.gavin.service" />
     </key>
   </component>
@@ -182,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="nginx server.nginx-1.17">
+  <component name="RunManager" selected="Spring Boot.SpringBootRunSSO">
     <configuration name="SpringBootTest.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manage" />
       <option name="PACKAGE_NAME" value="org.gavin" />
@@ -204,6 +211,19 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.SpringBootRunManage" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRunSSO" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gavin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.SpringBootRunSSO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,10 +256,12 @@
       <item itemvalue="nginx server.nginx-1.17" />
       <item itemvalue="Spring Boot.SpringBootRunManage" />
       <item itemvalue="Spring Boot.SpringBootRunWeb" />
+      <item itemvalue="Spring Boot.SpringBootRunSSO" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SpringBootRunWeb" />
+        <item itemvalue="Spring Boot.SpringBootRunSSO" />
         <item itemvalue="Spring Boot.SpringBootRunManage" />
         <item itemvalue="JUnit.SpringBootTest.testJedis" />
       </list>
@@ -279,7 +301,7 @@
       <workItem from="1564148613882" duration="6364000" />
       <workItem from="1564281890635" duration="125000" />
       <workItem from="1564282573921" duration="151000" />
-      <workItem from="1564283047949" duration="8650000" />
+      <workItem from="1564283047949" duration="25183000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -386,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564284010355</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="10th">
+      <created>1564294414793</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564294414793</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
