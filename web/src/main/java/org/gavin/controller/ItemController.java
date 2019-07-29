@@ -19,7 +19,6 @@ public class ItemController {
     private ItemService itemService;
 
     @RequestMapping("{itemId}")
-    @Cache_Query
     public String findItemById(@PathVariable Long itemId, Model model){
         Item item = itemService.findItemById(itemId);
         ItemDesc itemDesc = itemService.findItemDescById(itemId);

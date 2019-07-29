@@ -1,5 +1,5 @@
 server:
-  port: 8093
+  port: 8094
   servlet:
     context-path: /
 
@@ -25,9 +25,9 @@ dubbo:
   scan:
     basePackages: org.gavin
   application:
-    name: provider-sso
+    name: provider-cart
   registry:
     address: zookeeper://192.168.31.131:2181?backup=192.168.31.131:2182,192.168.31.131:2183
   protocol:
     name: dubbo
-    port: 20880
+    port: 20881

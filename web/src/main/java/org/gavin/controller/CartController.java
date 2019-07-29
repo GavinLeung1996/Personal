@@ -34,22 +34,22 @@ public class CartController {
         return "cart";
     }
 
-    @RequestMapping("delete/{itemId}}")
+    @RequestMapping("delete/{itemId}")
     public String deleteByItemId(@PathVariable("itemId") Long itemId){
         Long userId = UserThreadLocal.get().getId();
         dubboCartService.deleteByItemId(userId,itemId);
-        return "redirect:/views/cart.jsp";
+        return "redirect:/cart/show.html";
     }
 
-    @RequestMapping("update/num/{itemId}}/{num}}")
     @ResponseBody
-    public SysResut updateNumByItemId(@PathVariable("itemId")Long itemId, @PathVariable("num")Integer num){
+    @RequestMapping("update/num/{itemId}/{num}")
+    public SysResut updateNumByItemId(@PathVariable(name = "itemId") Long itemId,@PathVariable(name = "num") Integer num){
         Long userId = UserThreadLocal.get().getId();
         dubboCartService.updateNumByItemId(userId,itemId,num);
         return SysResut.success();
     }
 
-    @RequestMapping("add/{itemId}}")
+    @RequestMapping("add/{itemId}")
     public String addItemByItemId(@PathVariable("itemId") Long itemId,Cart cart){
         Long userId = UserThreadLocal.get().getId();
         dubboCartService.addItemByItemId(userId,itemId,cart);

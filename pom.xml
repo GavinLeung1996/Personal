@@ -12,6 +12,7 @@
         <module>web</module>
         <module>sso</module>
         <module>order</module>
+        <module>cart</module>
     </modules>
     <name>jt-practice</name>
   <packaging>pom</packaging>

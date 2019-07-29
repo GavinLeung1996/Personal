@@ -2,22 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c5076b-b870-4889-b12d-a3ba51a83605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/pojo/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/mapper/CartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/org/gavin/service/DubboCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/mybatis.mappers/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/interceptor/UserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/util/UserThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/main/java/org/gavin/SpringBootRunCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/main/resources/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/target/classes/org/gavin/SpringBootRunCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/target/classes/properties/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/target/classes/META-INF/sso.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboCartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/gavin/service/DubboOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/gavin/service/DubboCartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso/target/classes/org/gavin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso/target/classes/org/gavin/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/MvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/config/MvcConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/config/MvcConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/org/gavin/config/MvcConfigurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/org/gavin/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart/src/main/java/org/gavin/mapper/CartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/org/gavin/service/DubboCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart/src/main/java/org/gavin/service/DubboCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/mybatis.mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart/src/main/resources/mybatis.mappers/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/target/classes/mybatis.mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/classes/mybatis.mappers/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/target/classes/org/gavin/mapper/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/classes/org/gavin/mapper/CartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/target/classes/org/gavin/service/DubboCartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/classes/org/gavin/service/DubboCartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/gavin/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/org/gavin/controller/ItemController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +119,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sso/src/main/resources/mybatis.mappers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cart/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,38 +129,39 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.gavin.mapper" />
-      <recent name="org.gavin.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pocjet\jt-practice\cart\src\main\resources\mybatis.mappers" />
+      <recent name="E:\Pocjet\jt-practice\common\src\test\org" />
+      <recent name="E:\Pocjet\jt-practice\common\src\test" />
+      <recent name="E:\Pocjet\jt-practice\manage\src" />
+      <recent name="E:\Pocjet\jt-practice\manage\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.gavin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Pocjet\jt-practice\cart\src\main" />
       <recent name="E:\Pocjet\jt-practice\sso\src\main\resources\mybatis.mappers" />
       <recent name="E:\Pocjet\jt-practice\order\src\main\resources\properties" />
       <recent name="E:\Pocjet\jt-practice\sso\src\main\resources\propertices" />
       <recent name="E:\Pocjet\jt-practice\web\src\main\java\org\gavin\config" />
-      <recent name="E:\Pocjet\jt-practice\web\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.gavin" />
       <recent name="org.gavin.service" />
       <recent name="org.gavin.vo" />
       <recent name="org.gavin.mapper" />
       <recent name="org.gavin.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Pocjet\jt-practice\common\src\test\org" />
-      <recent name="E:\Pocjet\jt-practice\common\src\test" />
-      <recent name="E:\Pocjet\jt-practice\manage\src" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main" />
-      <recent name="E:\Pocjet\jt-practice\manage\src\main\resources\mybatis" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.gavin.mapper" />
+      <recent name="org.gavin.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,6 +188,21 @@
       <option name="MAIN_CLASS_NAME" value="org.gavin.SpringBootTest" />
       <option name="METHOD_NAME" value="testJedis" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRunCart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gavin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gavin.SpringBootRunCart" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,10 +266,12 @@
       <item itemvalue="Spring Boot.SpringBootRunManage" />
       <item itemvalue="Spring Boot.SpringBootRunWeb" />
       <item itemvalue="Spring Boot.SpringBootRunSSO" />
+      <item itemvalue="Spring Boot.SpringBootRunCart" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SpringBootRunWeb" />
+        <item itemvalue="Spring Boot.SpringBootRunCart" />
         <item itemvalue="Spring Boot.SpringBootRunSSO" />
         <item itemvalue="Spring Boot.SpringBootRunManage" />
         <item itemvalue="JUnit.SpringBootTest.testJedis" />
@@ -285,7 +313,8 @@
       <workItem from="1564281890635" duration="125000" />
       <workItem from="1564282573921" duration="151000" />
       <workItem from="1564283047949" duration="25238000" />
-      <workItem from="1564360739292" duration="8577000" />
+      <workItem from="1564360739292" duration="9917000" />
+      <workItem from="1564370983013" duration="4121000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1563936755010</created>
@@ -406,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564325342462</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="12th">
+      <created>1564369701765</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564369701765</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -469,6 +505,7 @@
     <MESSAGE value="9th" />
     <MESSAGE value="10th" />
     <MESSAGE value="11th" />
-    <option name="LAST_COMMIT_MESSAGE" value="11th" />
+    <MESSAGE value="12th" />
+    <option name="LAST_COMMIT_MESSAGE" value="12th" />
   </component>
 </project>

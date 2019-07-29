@@ -13,4 +13,5 @@ public interface DubboCartService {
     void updateNumByItemId(Long userId, Long itemId, Integer num);
 
     void addItemByItemId(Long userId, Long itemId, Cart cart);
+
 }
