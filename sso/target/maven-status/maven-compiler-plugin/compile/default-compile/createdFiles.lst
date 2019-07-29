@@ -1,0 +1,6 @@
+org\gavin\service\UserService.class
+org\gavin\mapper\UserMapper.class
+org\gavin\SpringBootRunSSO.class
+org\gavin\controller\UserController.class
+org\gavin\service\UserServiceImpl.class
+org\gavin\service\DubboUserServiceImpl.class

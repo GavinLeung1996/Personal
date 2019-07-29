@@ -1,0 +1,9 @@
+org\gavin\mapper\OrderShippingMapper.class
+org\gavin\service\DubboOrderShippingServiceImpl.class
+org\gavin\mapper\OrderMapper.class
+org\gavin\quartz\OrderQuartz.class
+org\gavin\mapper\OrderItemMapper.class
+org\gavin\SpringBootRunOrder.class
+org\gavin\service\DubboOrderServiceImpl.class
+org\gavin\config\QuartzConfig.class
+org\gavin\service\DubboOrderItemServiceImpl.class
